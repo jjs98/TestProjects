@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28606.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfTestStyling", "WpfTestStyling\WpfTestStyling.csproj", "{B454E0E2-1461-4C93-B3F4-684E1F99C49A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Styles", "Styles\Styles.csproj", "{EAB3C9D6-3C45-45B8-8117-8103403C2FF1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B454E0E2-1461-4C93-B3F4-684E1F99C49A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B454E0E2-1461-4C93-B3F4-684E1F99C49A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B454E0E2-1461-4C93-B3F4-684E1F99C49A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B454E0E2-1461-4C93-B3F4-684E1F99C49A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAB3C9D6-3C45-45B8-8117-8103403C2FF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAB3C9D6-3C45-45B8-8117-8103403C2FF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAB3C9D6-3C45-45B8-8117-8103403C2FF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAB3C9D6-3C45-45B8-8117-8103403C2FF1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EE8DFBFD-4BDE-485F-AD9D-244419407C4A}
+	EndGlobalSection
+EndGlobal

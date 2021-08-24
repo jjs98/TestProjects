@@ -1,0 +1,50 @@
+﻿<Window x:Class="Kassenbuch.CategoryWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Kassenbuch"
+        mc:Ignorable="d"
+        Title="CategoryWindow" Height="200" Width="500" MinHeight="150" MinWidth="400">
+    <Border Padding="5">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="30"/>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="140"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <RadioButton x:Name="RadioButtonAdd" Content="Kategorie hinzufügen:" Height="30" VerticalContentAlignment="Center" Checked="RadioButtonAdd_Checked"/>
+                    <RadioButton x:Name="RadioButtonDelete" Content="Kategorie löschen:" Height="30" VerticalContentAlignment="Center" Checked="RadioButtonDelete_Checked"/>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="80"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBox x:Name="TextBoxCategory" VerticalContentAlignment="Center" Grid.Column="0" Height="28" Margin="1, 1, 2, 1" BorderBrush="Black"/>
+                        <Button x:Name="ButtonAdd" Content="Hinzufügen" HorizontalAlignment="Right" Grid.Column="1" Width="80"  Margin="0, 1, 0, 1" Click="ButtonAdd_Click"/>
+                    </Grid>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="80"/>
+                        </Grid.ColumnDefinitions>
+                        <ComboBox x:Name="ComboBoxCategory" VerticalContentAlignment="Center" Grid.Column="0" Height="28" Margin="1, 1, 2, 1" BorderBrush="Black" DropDownOpened="ComboBoxCategory_DropDownOpened"/>
+                        <Button x:Name="ButtonDelete" Content="Löschen" HorizontalAlignment="Right" Grid.Column="1" Width="80"  Margin="0, 1, 0, 1" Click="ButtonDelete_Click"/>
+                    </Grid>
+                    <Label x:Name="LabelInformation" VerticalContentAlignment="Center"/>
+                </StackPanel>
+            </Grid>
+            <StackPanel Orientation="Horizontal" Grid.Row="1" HorizontalAlignment="Right">
+                <Button x:Name="ButtonClose" Content="Schließen" HorizontalAlignment="Right" Grid.Row="2" Width="80" Margin="0, 1, 0, 1" Click="ButtonClose_Click"/>
+            </StackPanel>
+
+        </Grid>
+    </Border>
+</Window>

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kassenbuch", "Kassenbuch\Kassenbuch.csproj", "{1D51D2C5-C7E2-4FA7-91CC-BF5D30FD41DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D51D2C5-C7E2-4FA7-91CC-BF5D30FD41DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D51D2C5-C7E2-4FA7-91CC-BF5D30FD41DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D51D2C5-C7E2-4FA7-91CC-BF5D30FD41DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D51D2C5-C7E2-4FA7-91CC-BF5D30FD41DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {59D7592A-596A-4778-89EE-2AFC5DCEA48F}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://jjschmitz.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Kassenbuch\\Kassenbuch.csproj
+		SccProjectName1 = Kassenbuch
+		SccLocalPath1 = Kassenbuch
+	EndGlobalSection
+EndGlobal
